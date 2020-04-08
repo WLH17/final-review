@@ -1,3 +1,17 @@
 .App {
   text-align: center;
 }
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.product-container {
+  width: 250px;
+}
+
+.product-image {
+  width: 250px;
+}
