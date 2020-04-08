@@ -1,3 +1,4 @@
+//A modal is a pop-up box that displays on the web page. This modal will display when a user tries to add something to a cart, prompting them to login or register first. This way, there isn't a view for authentication, since an e-commerce site should allow users to view product before creating an account.
 import React, {useState} from 'react';
 import {connect} from 'react-redux';
 import {getUser} from '../redux/reducer';

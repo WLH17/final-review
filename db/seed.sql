@@ -1,3 +1,8 @@
+-- The schema for a shopping cart on an e-commerce site should contain:
+-- 1. A customer table
+-- 2. A product table
+-- 3. A cart table, which will contain the customer_id as well as paid. Paid is how you will determine an active cart from an inactive one.
+-- 4. A cart-items table. This should contain the cart_id as well as the product_id.
 create table customers (
     customer_id serial primary key,
     email varchar(150) not null,

@@ -12,3 +12,13 @@
 * express-session - for creating and utilizing user sessions
 * dotenv - for easier use of environmental variables
 * bcryptjs - for hashing user passwords
+
+## Planning Projects
+Planning your personal projects is an especially important part of the project building process. When planning you should consider:
+* Your applications MVP (minimum viable product)
+* The data your application works with
+* Your database schema
+* Wireframes for your application views
+* Endpoints
+
+Don't get caught up in the 'feature fairy'. Focus on your MVP first, and then with any extra time, work on adding bonus features to your application.
