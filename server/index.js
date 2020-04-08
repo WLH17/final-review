@@ -26,5 +26,13 @@ massive({
 
 //Main endpoints
 app.get('/api/products', mainCtrl.getProducts);
+app.post('/api/cart-item', mainCtrl.addToCart);
+app.get('/api/cart/:id', mainCtrl.getCart);
+app.delete('/api/cart-item/:id', mainCtrl.deleteCartItem);
+
+//Auth endpoints
+app.post('/api/register', authCtrl.register);
+app.post('/api/login', authCtrl.login);
+app.get('/api/logout', authCtrl.logout);
 
 app.listen(port, () => console.log(`Server running on ${port}`));
